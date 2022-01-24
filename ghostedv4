@@ -1,0 +1,2247 @@
+Instance.new("ScreenGui").Parent = game.CoreGui
+Instance.new("ScreenGui").ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("ScreenGui"), "Main"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").BorderSizePixel = 0
+Instance.new("Frame").Position = UDim2.new(0,349218726, 0, 0,215277761, 0)
+Instance.new("Frame").Size = UDim2.new(0, 283, 0, 410)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "LoadingScreen"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").Position = UDim2.new(0,434628963, 0, 0,660975635, 0)
+Instance.new("Frame").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("ImageLabel").Parent, Instance.new("ImageLabel").Name = Instance.new("Frame"), "LoadingRing"
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").BackgroundTransparency = 1
+Instance.new("ImageLabel").Position = UDim2.new(0,179999992, 0, -0,280000001, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 64, 0, 64)
+Instance.new("ImageLabel").Image = "http://www.roblox.com/asset/?id=6847073903"
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "LoadingText"
+Instance.new("TextLabel").AnchorPoint = Vector2.new(0,5, 0,5)
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").BorderSizePixel = 0
+Instance.new("TextLabel").Position = UDim2.new(0,492976725, 0, 0,509006679, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 139, 0, 30)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "123"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 20
+Instance.new("TextLabel").TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+Instance.new("TextLabel").TextStrokeTransparency = 5
+Instance.new("ImageLabel").Parent, Instance.new("TextLabel").TextWrapped = Instance.new("Frame"), true
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").BackgroundTransparency = 1
+Instance.new("ImageLabel").Position = UDim2.new(-0,914575875, 0, -2,3781426, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 281, 0, 410)
+Instance.new("ImageLabel").Image = "http://www.roblox.com/asset/?id=6831056112"
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Tab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").BorderSizePixel = 0
+Instance.new("Frame").Size = UDim2.new(0, 100, 0, 100)
+Instance.new("ImageLabel").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").BackgroundTransparency = 1
+Instance.new("ImageLabel").BorderSizePixel = 0
+Instance.new("ImageLabel").Position = UDim2.new(-1,12000012, 0, -0,379999965, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 537, 0, 537)
+Instance.new("ImageLabel").Image = "http://www.roblox.com/asset/?id=6922812732"
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Visuals"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(2,61999989, 0, 0,504626453, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 59)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = ""
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Animations"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(3,0999999, 0, 1,49462652, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 67)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = ""
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Others"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,0599999987, 0, 0,504626453, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 55, 0, 59)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = ""
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Teleports"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(-0,519999981, 0, 1,49462652, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 73)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = ""
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Aimlock"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(1,3499999, 0, 0,384626448, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 59)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = ""
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "VisualsTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Position = UDim2.new(-0,560000002, 0, 2,98000002, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Style = Enum.FrameStyle.RobloxRound
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "ChatLogger"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0708084404, 0, 0,260006964, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "ChatLogger"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/Pn7SbiLG", true))()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LowGraphics"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0708084404, 0, 0,672851026, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Low Graphics"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xflpepp/complement/main/low%20graphics.lua", true))()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "ESP"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0708084404, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "ESP"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xflpepp/complement/main/esp.lua", true))()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "NoFog"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,368165255, 0, 0,260006964, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "No Fog"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game:GetService("Lighting").FogEnd = 900000000
+end)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "AnimationsTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Position = UDim2.new(-0,560000002, 0, 2,98000002, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("ScrollingFrame").Parent, Instance.new("Frame").Style = Instance.new("Frame"), Enum.FrameStyle.RobloxRound
+Instance.new("ScrollingFrame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ScrollingFrame").BackgroundTransparency = 1
+Instance.new("ScrollingFrame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("ScrollingFrame").Position = UDim2.new(0,00155760639, 0, 0, 0)
+Instance.new("ScrollingFrame").Selectable = false
+Instance.new("ScrollingFrame").Size = UDim2.new(0, 453, 0, 218)
+Instance.new("ScrollingFrame").CanvasSize = UDim2.new(4, 0, 1, 36)
+Instance.new("ScrollingFrame").ScrollBarImageColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunZombie"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,0600914136, 0, 0,0848841295, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Zombie"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpZombie"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,0600633845, 0, 0,170059487, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Zombie"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallZombie"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,0600633845, 0, 0,181566581, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Zombie"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleAstronaut"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,840664208, 0, 0,777480781, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Astronaut"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=891621366"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=891633237"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkZombie"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,0600914136, 0, 0,602277517, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Zombie"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkWerewolf"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,155688569, 0, 0,602277398, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Werewolf"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunWerewolf"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,155688569, 0, 0,0848841295, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Werewolf"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallWerewolf"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,155660555, 0, 0,181566581, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Werewolf"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpWerewolf"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,155660555, 0, 0,170059487, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Werewolf"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+end)
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("ScrollingFrame"), "Run"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,0114499107, 0, 0,0955476388, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 108, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.Gotham
+Instance.new("TextLabel").Text = "Run"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 16
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("ScrollingFrame"), "Jump"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,0119917318, 0, 0,133888856, 30)
+Instance.new("TextLabel").Size = UDim2.new(0, 108, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.Gotham
+Instance.new("TextLabel").Text = "Jump"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 16
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("ScrollingFrame"), "Fall"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,0116023347, 0, 0,305452853, 30)
+Instance.new("TextLabel").Size = UDim2.new(0, 108, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.Gotham
+Instance.new("TextLabel").Text = "Fall"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 16
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("ScrollingFrame"), "Walk"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,0119917318, 0, 0,486495465, 30)
+Instance.new("TextLabel").Size = UDim2.new(0, 108, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.Gotham
+Instance.new("TextLabel").Text = "Walk"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 16
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("ScrollingFrame"), "Idle"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,0119917318, 0, 0,652372181, 30)
+Instance.new("TextLabel").Size = UDim2.new(0, 108, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.Gotham
+Instance.new("TextLabel").Text = "Idle"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleZombie"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,0600914136, 0, 0,772893608, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Zombie"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleWerewolf"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,155688539, 0, 0,772893548, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Werewolf"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunNinja"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,252386957, 0, 0,0848841369, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Ninja"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkNinja"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,252386957, 0, 0,602277458, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Ninja"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallNinja"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,25274837, 0, 0,181566581, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Ninja"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleNinja"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,252386957, 0, 0,772893608, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Ninja"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpNinja"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,252358943, 0, 0,170059472, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Ninja"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallMage"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,349769294, 0, 0,181566596, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Mage"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunMage"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,349407911, 0, 0,0848841369, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Mage"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpMage"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,349379897, 0, 0,170059472, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Mage"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkMage"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,349018514, 0, 0,602277458, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Mage"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleMage"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,349407911, 0, 0,772893608, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Mage"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunToy"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,448242098, 0, 0,0848841369, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Toy"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpToy"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,448214084, 0, 0,170059472, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Toy"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallToy"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,448603481, 0, 0,181566596, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Toy"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkToy"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,448242098, 0, 0,602277458, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Toy"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleToy"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,448242098, 0, 0,772893608, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Toy"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunVampire"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,54597491, 0, 0,0848841369, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Vampire"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpVampire"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,545946896, 0, 0,170059472, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Vampire"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallVampire"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,545946896, 0, 0,181566596, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Vampire"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkVampire"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,545585513, 0, 0,602277517, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Vampire"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleVampire"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,545585513, 0, 0,772893667, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Vampire"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunCartoony"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,64425838, 0, 0,0848841369, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Cartoony"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpCartoony"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,644230366, 0, 0,170059472, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Cartoony"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallCartoony"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,644619763, 0, 0,181566596, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Cartoony"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkCartoony"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,64425844, 0, 0,602277517, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Cartoony"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleCartoony"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,643869042, 0, 0,772893667, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Cartoony"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunOldschool"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,741896868, 0, 0,0848841369, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Oldschool"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpOldschool"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,741868854, 0, 0,170059472, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Oldschool"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallOldschool"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,742258251, 0, 0,181566596, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Oldschool"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkOldschool"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,74150753, 0, 0,602277517, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Oldschool"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleOldschool"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,74150753, 0, 0,772893667, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Oldschool"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunAstronaut"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,841053545, 0, 0,0894712955, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Astronaut"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpAstronaut"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,841025531, 0, 0,174646616, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Astronaut"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=891627522"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallAstronaut"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,841025531, 0, 0,18615374, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Astronaut"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=891617961"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkAstronaut"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,840664208, 0, 0,606864631, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Astronaut"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "IdleKnight"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,934696019, 0, 0,782067895, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Knight"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+  game.Players.LocalPlayer.Character.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "RunKnight"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,935085356, 0, 0,0940584466, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Knight"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "JumpKnight"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,935057342, 0, 0,179233775, 30)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Knight"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "FallKnight"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,935449183, 0, 0,190740898, 69)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Knight"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("ScrollingFrame"), "WalkKnight"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0,934696019, 0, 0,611451745, 9)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.Gotham
+Instance.new("TextButton").Text = "Knight"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+end)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "OthersTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Position = UDim2.new(-0,560000002, 0, 2,98000002, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Page1"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(-0,000174224377, 0, -0,00253827497, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Style = Enum.FrameStyle.RobloxRound
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "AutoStomp"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "AutoStomp"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  while true do
+    wait(0,05)
+    game.ReplicatedStorage.MainEvent:FireServer("Stomp")
+  end
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "AntiBag"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "AntiBag"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game:GetService("Players").LocalPlayer.Character.ChildAdded:Connect(function(_ARG_0_)
+    if not _ARG_0_ then
+      wait(0,1)
+      _ARG_0_:Destroy()
+    end
+  end)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "GrabMoney"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Grab Money"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  while wait() do
+    for _FORV_3_, _FORV_4_ in pairs(workspace.Ignored.Drop:GetChildren()) do
+      if _FORV_4_.Name == "MoneyDrop" and workspace.Players[game.Players.LocalPlayer.Name].HumanoidRootPart.Position - _FORV_4_.Position.Magnitude <= 25 then
+        dineros = true
+        fireclickdetector(_FORV_4_.ClickDetector)
+        wait(0,7)
+        dineros = false
+      end
+    end
+  end
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "FreeCam"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "FreeCam"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xflpepp/complement/main/free%20cam.lua", true))()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Fly(X)"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Fly (X)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xflpepp/complement/main/fly.lua", true))()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "InfiniteYield"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Infinite Yield"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "NoRecoil"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "No Recoil"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  function setNoRecoil(_ARG_0_)
+    if getconnections then
+      for _FORV_5_, _FORV_6_ in pairs(getconnections(_ARG_0_.BodyEffects.GunShotChanges.Changed)) do
+        _FORV_6_:Disable()
+      end
+    elseif not _ARG_0_.BodyEffects.GunShotChanges then
+      for _FORV_5_, _FORV_6_ in pairs(get_signal_cons(_ARG_0_.BodyEffects.GunShotChanges.Changed)) do
+        _FORV_6_:Disconnect()
+      end
+    else
+      warn("your exploit doesn't support getconnections or get_signal_cons!")
+      return
+    end
+  end
+  repeat
+    wait()
+  until not game:GetService("Players").LocalPlayer
+  setNoRecoil(game:GetService("Players").LocalPlayer.Character)
+  game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function(_ARG_0_)
+    repeat
+      wait()
+    until not _ARG_0_
+    wait(0,9)
+    setNoRecoil(_ARG_0_)
+  end)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "NoSlowdown"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "NoSlowdown"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  (function(_ARG_0_)
+    _ARG_0_:WaitForChild("BodyEffects").Movement.DescendantAdded:Connect(function(_ARG_0_)
+      wait()
+      _ARG_0_:Destroy()
+    end)
+  end)(game:GetService("Players").LocalPlayer.Character or game:GetService("Players").LocalPlayer.CharacterAdded:Wait())
+  game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function(_ARG_0_)
+    _UPVALUE0_(_ARG_0_)
+  end)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "SpeedHack"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Speed Hack"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xflpepp/complement/main/kaias", true))()
+end)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Page2"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(-0,00017423369, 0, -0,0025382787, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Style = Enum.FrameStyle.RobloxRound
+Instance.new("TextBox").Parent, Instance.new("TextBox").Name = Instance.new("Frame"), "NicknameTP"
+Instance.new("TextBox").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextBox").BackgroundTransparency = 0,5
+Instance.new("TextBox").Position = UDim2.new(0,51847142, 0, 0,300284415, 0)
+Instance.new("TextBox").Size = UDim2.new(0, 150, 0, 50)
+Instance.new("TextBox").Font = Enum.Font.SourceSans
+Instance.new("TextBox").Text = "Nickname"
+Instance.new("TextBox").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextBox").TextSize = 17
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Teleport"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,56199795, 0, 0,608630836, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Teleport"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players:FindFirstChild(_UPVALUE0_.Page2.NicknameTP.Text).Character.HumanoidRootPart.CFrame * CFrame.new(0, 4, 0)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Respawn"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,310465664, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Respawn"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game:GetService("Players").LocalPlayer.Character:FindFirstChild("RagdollConstraints"):Destroy()
+  game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+  game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Headless"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,535236359, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Headless"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  _UPVALUE0_.MouseButton1Down:connect(function()
+    game.Players.LocalPlayer.Character.Head.Neck:Destroy()
+    game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment:Destroy()
+    game.Players.LocalPlayer.Character.Humanoid.HealthDisplayDistance = math.huge
+    game.Players.LocalPlayer.Character.Humanoid.NameDisplayDistance = math.huge
+    game.Players.LocalPlayer.Character.Head.Size = Vector3.new(0, 0, 0)
+    game.Players.LocalPlayer.Character.Head.Massless = true
+    game.Players.LocalPlayer.Character.Head.CanCollide = false
+    heazd = true
+    while heazd == true do
+      pcall(function()
+        game.Players.LocalPlayer.Character.Head.NeckRigAttachment.CFrame = CFrame.new(0, 100000,473632813, 0)
+        game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.CFrame = CFrame.new(0, 100000,473632813, 0)
+        game.Players.LocalPlayer.Character.Head.CFrame = CFrame.new(0, 100000,473632813, 0)
+      end)
+      wait()
+    end
+  end)
+end)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Page3"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(-0,000174224377, 0, -0,00253827497, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Style = Enum.FrameStyle.RobloxRound
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "AntiCrash"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Anti Crash"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  wait(0,25)
+  noclip = true
+  game:GetService("RunService").Stepped:connect(function()
+    if not nil then
+      game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+    end
+  end)
+  wait(0,25)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(113,859444, -36,6148605, -272,864349, 0,998880804, 0,00105986372, -0,0472871028, 9,00672925E-10, 0,999748886, 0,0224077702, 0,047298979, -0,0223826915, 0,998629987)
+  wait(0,5)
+  fireclickdetector(game.Workspace.Ignored.Shop["[RPG] - $6000"].ClickDetector, 4)
+  wait(0,5)
+  fireclickdetector(game.Workspace.Ignored.Shop["5 [RPG Ammo] - $1000"].ClickDetector, 4)
+  wait(0,5)
+  fireclickdetector(game.Workspace.Ignored.Shop["5 [RPG Ammo] - $1000"].ClickDetector, 4)
+  wait(0,5)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-245,633408, 21,7999573, -86,0616531, 0,523575366, -8,17807972E-08, 0,851979136, -3,05426546E-08, 1, 1,14758862E-07, -0,851979136, -8,61066312E-08, 0,523575366)
+  wait(0,5)
+  noclip = false
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "RocketRide"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Rocket Ride"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game:GetService("RunService").Stepped:connect(function()
+    if not _UPVALUE0_.PlayerGui and _UPVALUE0_.PlayerGui.MainScreenGui:FindFirstChild("Bar") and _UPVALUE0_.PlayerGui.MainScreenGui.Bar:FindFirstChild("Speed") then
+      _UPVALUE0_.PlayerGui.MainScreenGui.Bar.Speed.bar.Size = UDim2.new(_UPVALUE1_ / 100 * 0,95, 0, 0,83, 0)
+    else
+      _UPVALUE0_.PlayerGui.MainScreenGui.Bar.HP:Clone().Name = ""
+      _UPVALUE0_.PlayerGui.MainScreenGui.Bar.HP:Clone().TextLabel.Text = ""
+    end
+    if not _UPVALUE0_.PlayerGui.MainScreenGui.Bar.HP:Clone() and _UPVALUE2_.Parent ~= nil then
+      setsimulationradius(math.huge ^ math.huge, math.huge)
+      if not math.huge ^ math.huge then
+        _UPVALUE3_[1].Position = _UPVALUE2_.CFrame * CFrame.new(0, -_UPVALUE1_ / 20, -2) * CFrame.Angles(math.rad(-90), 0, 0).p
+        _UPVALUE3_[2].cframe = _UPVALUE2_.CFrame * CFrame.new(0, -_UPVALUE1_ / 20, -2) * CFrame.Angles(math.rad(-90), 0, 0)
+        if _UPVALUE0_.Character.Humanoid.Sit ~= true then
+          _UPVALUE2_ = nil
+        end
+      else
+        _UPVALUE3_ = {}
+        Instance.new("BodyPosition", _UPVALUE0_.Character.LowerTorso).P = 100000
+        Instance.new("BodyPosition", _UPVALUE0_.Character.LowerTorso).MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+        Instance.new("BodyGyro", _UPVALUE0_.Character.LowerTorso).MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+        _UPVALUE3_[1], _UPVALUE3_[2] = Instance.new("BodyPosition", _UPVALUE0_.Character.LowerTorso), Instance.new("BodyGyro", _UPVALUE0_.Character.LowerTorso)
+      end
+      if _UPVALUE4_.w then
+        _UPVALUE2_.CFrame = _UPVALUE2_.CFrame * CFrame.Angles(math.rad(_UPVALUE5_), 0, 0)
+      end
+      if not (_UPVALUE2_.CFrame * CFrame.Angles(math.rad(_UPVALUE5_), 0, 0)) then
+        _UPVALUE2_.CFrame = _UPVALUE2_.CFrame * CFrame.Angles(math.rad(-_UPVALUE5_), 0, 0)
+      end
+      if _UPVALUE4_.a then
+        _UPVALUE2_.CFrame = _UPVALUE2_.CFrame * CFrame.Angles(0, 0, math.rad(-_UPVALUE5_))
+      end
+      if _UPVALUE4_.d then
+        _UPVALUE2_.CFrame = _UPVALUE2_.CFrame * CFrame.Angles(0, 0, math.rad(_UPVALUE5_))
+      end
+    end
+    if _UPVALUE4_.q and _UPVALUE1_ >= 0 then
+      _UPVALUE1_ = _UPVALUE1_ - 1
+    end
+    if not (_UPVALUE2_.CFrame * CFrame.Angles(0, 0, math.rad(_UPVALUE5_))) and _UPVALUE1_ <= 100 then
+      _UPVALUE1_ = 0 + 1
+    end
+  end)
+  game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(_ARG_0_)
+    if _UPVALUE0_[_ARG_0_:lower()] ~= nil then
+      _UPVALUE0_[_ARG_0_:lower()] = true
+    end
+  end)
+  game.Players.LocalPlayer:GetMouse().KeyUp:connect(function(_ARG_0_)
+    if _UPVALUE0_[_ARG_0_:lower()] ~= nil then
+      _UPVALUE0_[_ARG_0_:lower()] = false
+    end
+  end)
+  game.Workspace.Ignored.ChildAdded:connect(function(_ARG_0_)
+    wait()
+    if _ARG_0_.Name == "Launcher" and math.abs(_ARG_0_.Position - _UPVALUE0_.Character.HumanoidRootPart.Position.Magnitude) <= 30 then
+      _UPVALUE0_.Character.Humanoid.Sit = true
+      _UPVALUE1_ = _ARG_0_
+      _ARG_0_:WaitForChild("BodyVelocity"):Destroy()
+      while not Instance.new("BodyVelocity", _ARG_0_) and _UPVALUE1_.Parent ~= nil do
+        game.RunService.Stepped:wait()
+        Instance.new("BodyVelocity", _ARG_0_).Velocity = _ARG_0_.CFrame * CFrame.new(0, -_UPVALUE2_, 0).p - _ARG_0_.CFrame.p
+      end
+      _UPVALUE3_[1]:Destroy()
+      _UPVALUE3_[2]:Destroy()
+      _UPVALUE3_ = nil
+    end
+  end)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Page1"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,364668399, 0, 0,875389159, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 39, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "1"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 17
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Page3"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,545000017, 0, 0,875, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 39, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "3"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 17
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Page2"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,454976767, 0, 0,875389159, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 39, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "2"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 17
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "AimlockTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Position = UDim2.new(-0,560000002, 0, 2,98000002, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Parent, Instance.new("Frame").Style = Instance.new("Frame"), Enum.FrameStyle.RobloxRound
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(0,0903374776, 0, 0,0798754171, 0)
+Instance.new("Frame").Size = UDim2.new(0, 35, 0, 35)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Head"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Size = UDim2.new(0, 35, 0, 35)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Head"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().AimPart = "Head"
+end)
+Instance.new("Frame").Parent = Instance.new("Frame")
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0,0810000002, 0, 0,270000011, 0)
+Instance.new("Frame").Size = UDim2.new(0, 43, 0, 55)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Upper"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Size = UDim2.new(0, 43, 0, 27)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Upper"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().AimPart = "UpperTorso"
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Lower"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(0, 0, 0,527272761, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 43, 0, 26)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Lower"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().AimPart = "LowerTorso"
+end)
+Instance.new("Frame").Parent = Instance.new("Frame")
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(0,186000004, 0, 0,275999993, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 26, 0, 54)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(0,0170000009, 0, 0,275999993, 0)
+Instance.new("Frame").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 25, 0, 54)
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(0,0810000002, 0, 0,552999973, 0)
+Instance.new("Frame").Size = UDim2.new(0, 43, 0, 55)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Root"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 43, 0, 22)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Root"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().AimPart = "HumanoidRootPart"
+end)
+Instance.new("TextLabel").Parent = Instance.new("Frame")
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(-0,0177764222, 0, 0,820806384, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 128, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "AimPart:"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Parent, Instance.new("TextLabel").TextSize = Instance.new("Frame"), 17
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").BorderSizePixel = 0
+Instance.new("Frame").Position = UDim2.new(0,213122666, 0, 0,784782469, 0)
+Instance.new("Frame").Size = UDim2.new(0, 55, 0, 37)
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "HeadInfo"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,20566082, 0, 0,802279413, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 68, 0, 42)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Head"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "RootInfo"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,206, 0, 0,801999986, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 249, 0, 42)
+Instance.new("TextLabel").Visible = false
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "RootPart"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "UpperInfo"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,206, 0, 0,801999986, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 249, 0, 42)
+Instance.new("TextLabel").Visible = false
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "UpperTorso"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").TextXAlignment = Enum.TextXAlignment.Left
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "LowerInfo"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,206, 0, 0,801999986, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 249, 0, 42)
+Instance.new("TextLabel").Visible = false
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "LowerTorso"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 17
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextXAlignment = Instance.new("Frame"), Enum.TextXAlignment.Left
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,264317214, 0, 0,165137604, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 50)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Prediction:"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Delay"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,433741778, 0, 0,422521442, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 53, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Change"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().PredictionVelocity = _UPVALUE0_.Prediction.Text
+end)
+Instance.new("TextBox").Parent, Instance.new("TextBox").Name = Instance.new("Frame"), "Prediction"
+Instance.new("TextBox").Active = false
+Instance.new("TextBox").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextBox").BackgroundTransparency = 1
+Instance.new("TextBox").Position = UDim2.new(0,415487289, 0, 0,34574905, 0)
+Instance.new("TextBox").Size = UDim2.new(0, 69, 0, 15)
+Instance.new("TextBox").Font = Enum.Font.SourceSans
+Instance.new("TextBox").Text = "5"
+Instance.new("TextBox").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextBox").TextSize = 16
+Instance.new("TextBox").Parent, Instance.new("TextBox").Name = Instance.new("Frame"), "Range"
+Instance.new("TextBox").Active = false
+Instance.new("TextBox").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextBox").BackgroundTransparency = 1
+Instance.new("TextBox").Position = UDim2.new(0,536632657, 0, 0,735657334, 0)
+Instance.new("TextBox").Size = UDim2.new(0, 69, 0, 15)
+Instance.new("TextBox").Font = Enum.Font.SourceSans
+Instance.new("TextBox").Text = "80"
+Instance.new("TextBox").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextBox").TextSize = 16
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Radio"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,554887176, 0, 0,812429667, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 53, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Change"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().AimRadius = _UPVALUE0_.Range.Text
+end)
+Instance.new("TextLabel").Parent = Instance.new("Frame")
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,385462582, 0, 0,555045843, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 50)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Radio:"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Key"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,678235233, 0, 0,422521442, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 53, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Change"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  getgenv().AimlockToggleKey = _UPVALUE0_.ToggleKey.Text
+end)
+Instance.new("TextBox").Parent, Instance.new("TextBox").Name = Instance.new("Frame"), "ToggleKey"
+Instance.new("TextBox").Active = false
+Instance.new("TextBox").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextBox").BackgroundTransparency = 1
+Instance.new("TextBox").Position = UDim2.new(0,659980714, 0, 0,34574911, 0)
+Instance.new("TextBox").Size = UDim2.new(0, 69, 0, 15)
+Instance.new("TextBox").Font = Enum.Font.SourceSans
+Instance.new("TextBox").Text = "B"
+Instance.new("TextBox").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").Parent, Instance.new("TextBox").TextSize = Instance.new("Frame"), 16
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,50881058, 0, 0,165137589, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 50)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "ToggleKey:"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 18
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "TeleportsTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BackgroundTransparency = 1
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("Frame").Position = UDim2.new(-0,560000002, 0, 2,98000002, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Page2"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(-0,00237687677, 0, -0,00253827684, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Visible = false
+Instance.new("Frame").Style = Enum.FrameStyle.RobloxRound
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "SavePos"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Save Position"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BuyArmor"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Buy Armor"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  wait(0,25)
+  noclip = true
+  game:GetService("RunService").Stepped:connect(function()
+    if not nil then
+      game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+    end
+  end)
+  wait(0,25)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-259,577057, 10,9973202, -84,2396851, 0,999764025, 0,000551820151, -0,0217151158, -2,91815183E-10, 0,9996773, 0,0254035834, 0,0217221268, -0,0253975894, 0,999441385)
+  wait(0,5)
+  fireclickdetector(game.Workspace.Ignored.Shop["[Medium Armor] - $1600"].ClickDetector, 4)
+  wait(0,5)
+  game.Players.LocalPlayer.Character:MoveTo(game.Players.LocalPlayer.Character.UpperTorso.Position)
+  wait(0,5)
+  noclip = false
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "AkMountain"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "AK Mountain"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-697,136841, 75,9998474, -678,251282, -0,785228908, -6,29474783E-08, -0,619204044, 1,21604655E-08, 1, -1,17079658E-07, 0,619204044, -9,94642022E-08, -0,785228908)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Guns2ADM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Guns2 Admin"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-808,076111, -39,6492004, -934,640015, 0,863700926, -2,6963443E-08, -0,504004657, 4,11868761E-08, 1, 1,70825825E-08, 0,504004657, -3,55126204E-08, 0,863700926)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LoadPos"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Load Position"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(savepos)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Cementery"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Cementery"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(192,307938, 21,7499981, 41,8727684, -0,769776046, -8,44139052E-08, -0,638314068, -3,3123122E-08, 1, -9,23002048E-08, 0,638314068, -4,99075341E-08, -0,769776046)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "GasolM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "GStation Mountain"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(698,530151, 148,25, -333,164093, 0,442931831, -5,6534013E-08, -0,896554708, 2,52626684E-08, 1, -5,05762081E-08, 0,896554708, -2,47472487E-10, 0,442931831)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Subway"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Subway"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-120,336761, -20,7549992, 344,111694, -0,999361753, 5,68450309E-09, 0,0357222892, 3,15656878E-09, 1, -7,08226935E-08, -0,0357222892, -7,06647327E-08, -0,999361753)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Sewers"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Sewers Back"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(140,174194, -41,950058, -111,124374, 0,876931369, 7,15873085E-08, 0,480615616, -2,71225016E-08, 1, -9,94614737E-08, -0,480615616, 7,41853867E-08, 0,876931369)
+end)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Page1"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(-0,00237686746, 0, -0,00253827497, 0)
+Instance.new("Frame").Size = UDim2.new(0, 454, 0, 218)
+Instance.new("Frame").Style = Enum.FrameStyle.RobloxRound
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "BuyArmor"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Buy Armor"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  wait(0,25)
+  noclip = true
+  game:GetService("RunService").Stepped:connect(function()
+    if not nil then
+      game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+    end
+  end)
+  wait(0,25)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-259,577057, 10,9973202, -84,2396851, 0,999764025, 0,000551820151, -0,0217151158, -2,91815183E-10, 0,9996773, 0,0254035834, 0,0217221268, -0,0253975894, 0,999441385)
+  wait(0,5)
+  fireclickdetector(game.Workspace.Ignored.Shop["[Medium Armor] - $1600"].ClickDetector, 4)
+  wait(0,5)
+  game.Players.LocalPlayer.Character:MoveTo(game.Players.LocalPlayer.Character.UpperTorso.Position)
+  wait(0,5)
+  noclip = false
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "SavePos"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Save Position"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "UFO"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "UFO"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(70,2481384, 139, -695,282837, -0,719197571, -8,69919514E-09, -0,694805622, 1,49744981E-08, 1, -2,80205246E-08, 0,694805622, -3,05566594E-08, -0,719197571)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "TommyM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Tommy Mountain"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-42,5880775, 111,75, -20,2455711, -0,999295413, -6,63333211E-08, 0,0375216044, -6,38022541E-08, 1, 6,86531152E-08, -0,0375216044, 6,62107666E-08, -0,999295413)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "RevM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,361557335, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Rev Mountain"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-660,284363, 138,800003, -61,3894119, 2,05419492E-05, -1,00572033E-05, 0,999999702, -4,74557328E-06, 1, 1,00572997E-05, -0,999999702, -4,74578155E-06, 2,05419492E-05)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LmgM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,241658345, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Lmg Mountain"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-732,401611, 122,25, -362,656952, 0,821794331, -3,73435221E-08, 0,569783926, -1,26148578E-07, 1, 2,47482717E-07, -0,569783926, -2,75257378E-07, 0,821794331)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "FoodADM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,466428995, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Food Admin Base"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-787,362976, -39,6492004, -934,037354, -0,992641568, 1,10707326E-07, 0,121089533, 1,09836861E-07, 1, -1,38632421E-08, -0,121089533, -4,61136046E-10, -0,992641568)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Guns1ADM"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,667724729, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Guns1 Admin"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-876,842712, -32,6492004, -528,957153, -0,901149273, -1,05164418E-07, -0,433508962, -7,64222392E-08, 1, -8,37273859E-08, 0,433508962, -4,23211475E-08, -0,901149273)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "LoadPos"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,0531872958, 0, 0,686612487, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 114, 0, 30)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Load Position"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 16
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(savepos)
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Page1"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,399910688, 0, 0,870801985, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 39, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "1"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 17
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Page2"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BackgroundTransparency = 0,5
+Instance.new("TextButton").Position = UDim2.new(0,490219057, 0, 0,870801985, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 39, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "2"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 17
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Minimize"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(27, 42, 53)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(-0,460000038, 0, 2,48000002, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 62, 0, 50)
+Instance.new("TextButton").Text = "-"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 100
+Instance.new("TextButton").TextWrapped = true
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  _UPVALUE0_.Visible = false
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Close"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(27, 42, 53)
+Instance.new("TextButton").BorderSizePixel = 0
+Instance.new("TextButton").Position = UDim2.new(3,23000002, 0, 2,48000002, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 62, 0, 50)
+Instance.new("TextButton").Font = Enum.Font.GothamBlack
+Instance.new("TextButton").Text = "x"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 60
+Instance.new("TextButton").TextWrapped = true
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "CloseWarn"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("Frame").Position = UDim2.new(-0,190000057, 0, 3,39999986, 0)
+Instance.new("Frame").Size = UDim2.new(0, 380, 0, 133)
+Instance.new("Frame").Visible = false
+Instance.new("TextLabel").Parent, Instance.new("Frame").Style = Instance.new("Frame"), Enum.FrameStyle.RobloxRound
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").BackgroundTransparency = 1
+Instance.new("TextLabel").Position = UDim2.new(0,221052632, 0, 0,0150375962, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 200, 0, 50)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Close this gui?"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextLabel").TextSize = 30
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "CLOSE SCRIPT THIS"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").Position = UDim2.new(0,115496635, 0, 0,583726943, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 40, 0, 43)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Yes"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 25
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  _UPVALUE0_:Destroy()
+end)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "CLOSE BUT NO"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").BackgroundTransparency = 1
+Instance.new("TextButton").Position = UDim2.new(0,768128216, 0, 0,583726943, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 40, 0, 43)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "No"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(127, 0, 0)
+Instance.new("TextButton").TextSize = 25
+Instance.new("TextButton").MouseButton1Down:connect(function()
+  _UPVALUE0_.Visible = false
+end)
+Instance.new("ImageLabel").Parent, Instance.new("ImageLabel").Name = Instance.new("Frame"), "GHOSTED"
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("ImageLabel").BackgroundTransparency = 1
+Instance.new("ImageLabel").Position = UDim2.new(-0,0947106034, 0, 0,123079628, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 397, 0, 375)
+Instance.new("ImageLabel").Visible = false
+Instance.new("ImageLabel").Image = "http://www.roblox.com/asset/?id=6847073256"
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Ghosted v4"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Misc"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Animations"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Profile"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Teleports"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Visuals"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Loading Aimlock"
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = "Welcome " .. game.Players.LocalPlayer.DisplayName .. ""
+  wait(1)
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Text = ""
+end)()
+coroutine.wrap(function()
+  game:GetService("ReplicatedFirst"):RemoveDefaultLoadingScreen()
+  game:GetService("TweenService"):Create(Instance.new("LocalScript", _UPVALUE0_).Parent.LoadingScreen.LoadingRing, TweenInfo.new(4, Enum.EasingStyle.Linear, Enum.EasingDirection.In, -1), {Rotation = 360}):Play()
+  wait(8)
+  if game:GetService("ReplicatedFirst") then
+    game.Loaded:Wait()
+  end
+  Instance.new("LocalScript", _UPVALUE0_).Parent.LoadingScreen:Destroy()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.GHOSTED.Visible = true
+  Instance.new("LocalScript", _UPVALUE0_).Parent.Tab.Visible = true
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.OthersTab.Visible = false
+    _UPVALUE0_.Parent.Parent.VisualsTab.Visible = true
+    _UPVALUE0_.Parent.Parent.TeleportsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AnimationsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AimlockTab.Visible = false
+    _UPVALUE0_.Parent.Parent.CloseWarn.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.OthersTab.Visible = false
+    _UPVALUE0_.Parent.Parent.VisualsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.TeleportsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AnimationsTab.Visible = true
+    _UPVALUE0_.Parent.Parent.AimlockTab.Visible = false
+    _UPVALUE0_.Parent.Parent.CloseWarn.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.OthersTab.Visible = true
+    _UPVALUE0_.Parent.Parent.VisualsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.TeleportsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AnimationsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AimlockTab.Visible = false
+    _UPVALUE0_.Parent.Parent.CloseWarn.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.OthersTab.Visible = false
+    _UPVALUE0_.Parent.Parent.VisualsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.TeleportsTab.Visible = true
+    _UPVALUE0_.Parent.Parent.AnimationsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AimlockTab.Visible = false
+    _UPVALUE0_.Parent.Parent.CloseWarn.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.OthersTab.Visible = false
+    _UPVALUE0_.Parent.Parent.VisualsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.TeleportsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AnimationsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AimlockTab.Visible = true
+    _UPVALUE0_.Parent.Parent.CloseWarn.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Page1.Visible = true
+    _UPVALUE0_.Parent.Parent.Page2.Visible = false
+    _UPVALUE0_.Parent.Parent.Page3.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Page1.Visible = false
+    _UPVALUE0_.Parent.Parent.Page2.Visible = false
+    _UPVALUE0_.Parent.Parent.Page3.Visible = true
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Page1.Visible = false
+    _UPVALUE0_.Parent.Parent.Page2.Visible = true
+    _UPVALUE0_.Parent.Parent.Page3.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Parent.HeadInfo.Visible = true
+    _UPVALUE0_.Parent.Parent.Parent.UpperInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.LowerInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.RootInfo.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Parent.HeadInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.UpperInfo.Visible = true
+    _UPVALUE0_.Parent.Parent.Parent.LowerInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.RootInfo.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Parent.HeadInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.UpperInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.LowerInfo.Visible = true
+    _UPVALUE0_.Parent.Parent.Parent.RootInfo.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Parent.HeadInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.UpperInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.LowerInfo.Visible = false
+    _UPVALUE0_.Parent.Parent.Parent.RootInfo.Visible = true
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Page1.Visible = true
+    _UPVALUE0_.Parent.Parent.Page2.Visible = false
+    _UPVALUE0_.Parent.Parent.Page3.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.Page1.Visible = false
+    _UPVALUE0_.Parent.Parent.Page2.Visible = true
+    _UPVALUE0_.Parent.Parent.Page3.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", _UPVALUE0_).Parent.MouseButton1Down:connect(function()
+    _UPVALUE0_.Parent.Parent.OthersTab.Visible = false
+    _UPVALUE0_.Parent.Parent.VisualsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.TeleportsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AnimationsTab.Visible = false
+    _UPVALUE0_.Parent.Parent.AimlockTab.Visible = false
+    _UPVALUE0_.Parent.Parent.CloseWarn.Visible = true
+  end)
+end)()
+coroutine.wrap(function()
+  frame = Instance.new("LocalScript", _UPVALUE0_).Parent.Main
+  frame.Draggable = true
+  frame.Selectable = true
+  frame.Active = true
+end)()
+coroutine.wrap(function()
+  game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(_ARG_0_)
+    if _ARG_0_ == "l" then
+      _UPVALUE0_.Parent.Main.Visible = not _UPVALUE0_.Parent.Main.Visible
+    end
+  end)
+end)()
+getgenv().AimPart = "Head"
+getgenv().AimlockToggleKey = "B"
+getgenv().AimRadius = 80
+getgenv().FirstPerson = true
+getgenv().TeamCheck = false
+getgenv().PredictMovement = true
+getgenv().PredictionVelocity = 5
+getgenv().CiazwareUniversalAimbotLoadingTime = tick()
+if CiazwareUniversalAimbotLoaded == true then
+  return
+end
+getgenv().CiazwareUniversalAimbotLoaded = true
+getgenv().WorldToViewportPoint = function(_ARG_0_)
+  return _UPVALUE0_:WorldToViewportPoint(_ARG_0_)
+end
+getgenv().WorldToScreenPoint = function(_ARG_0_)
+  return _UPVALUE0_.WorldToScreenPoint(_UPVALUE0_, _ARG_0_)
+end
+getgenv().GetObscuringObjects = function(_ARG_0_)
+  if _ARG_0_ and not _ARG_0_ and _UPVALUE0_ and not _ARG_0_ and workspace:FindPartOnRay(_UPVALUE1_(_ARG_0_[getgenv().AimPart].Position, _UPVALUE0_.Character.Head.Position)) then
+    return workspace:FindPartOnRay(_UPVALUE1_(_ARG_0_[getgenv().AimPart].Position, _UPVALUE0_.Character.Head.Position)):IsDescendantOf(_ARG_0_)
+  end
+end
+getgenv().GetNearestTarget = function()
+  for _FORV_6_, _FORV_7_ in pairs(_UPVALUE0_:GetPlayers()) do
+    if _FORV_7_ ~= _UPVALUE1_ then
+      table.insert({}, _FORV_7_)
+    end
+  end
+  for _FORV_6_, _FORV_7_ in pairs({}) do
+    if _FORV_7_.Character ~= nil then
+      if getgenv().TeamCheck == true and _FORV_7_.Team ~= _UPVALUE1_.Team then
+        {
+          [_FORV_7_.Name .. _FORV_6_] = {},
+          [_FORV_7_.Name .. _FORV_6_] = {}
+        }[_FORV_7_.Name .. _FORV_6_].dist = _FORV_7_.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude
+        {
+          [_FORV_7_.Name .. _FORV_6_] = {},
+          [_FORV_7_.Name .. _FORV_6_] = {}
+        }[_FORV_7_.Name .. _FORV_6_].plr = _FORV_7_
+        {
+          [_FORV_7_.Name .. _FORV_6_] = {},
+          [_FORV_7_.Name .. _FORV_6_] = {}
+        }[_FORV_7_.Name .. _FORV_6_].diff = math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, _UPVALUE2_.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * _FORV_7_.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - _FORV_7_.Character:FindFirstChild("Head").Position.magnitude)
+        table.insert({}, (math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, _UPVALUE2_.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * _FORV_7_.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - _FORV_7_.Character:FindFirstChild("Head").Position.magnitude)))
+      elseif getgenv().TeamCheck == false and _FORV_7_.Team == _UPVALUE1_.Team then
+        {
+          [_FORV_7_.Name .. _FORV_6_] = {},
+          [_FORV_7_.Name .. _FORV_6_] = {}
+        }[_FORV_7_.Name .. _FORV_6_].dist = _FORV_7_.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude
+        {
+          [_FORV_7_.Name .. _FORV_6_] = {},
+          [_FORV_7_.Name .. _FORV_6_] = {}
+        }[_FORV_7_.Name .. _FORV_6_].plr = _FORV_7_
+        {
+          [_FORV_7_.Name .. _FORV_6_] = {},
+          [_FORV_7_.Name .. _FORV_6_] = {}
+        }[_FORV_7_.Name .. _FORV_6_].diff = math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, _UPVALUE2_.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * _FORV_7_.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - _FORV_7_.Character:FindFirstChild("Head").Position.magnitude)
+        table.insert({}, (math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, _UPVALUE2_.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * _FORV_7_.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - _FORV_7_.Character:FindFirstChild("Head").Position.magnitude)))
+      end
+    end
+  end
+  if unpack({}) == nil then
+    return nil
+  end
+  if math.floor(math.min(unpack({}))) >= getgenv().AimRadius then
+    return nil
+  end
+  for _FORV_7_, _FORV_8_ in pairs({
+    [_FORV_7_.Name .. _FORV_6_] = {},
+    [_FORV_7_.Name .. _FORV_6_] = {}
+  }) do
+    if _FORV_8_.diff == math.floor(math.min(unpack({}))) then
+      return _FORV_8_.plr
+    end
+  end
+  return nil
+end
+game:GetService("UserInputService").InputBegan:Connect(function(_ARG_0_)
+  if _ARG_0_ then
+    if _ARG_0_.UserInputType == Enum.UserInputType.MouseButton2 then
+      pcall(function()
+        if _UPVALUE0_ ~= true then
+          _UPVALUE0_ = true
+        end
+        if GetNearestTarget() ~= nil then
+          _UPVALUE1_ = GetNearestTarget()
+        end
+      end)
+    end
+    if _ARG_0_.KeyCode == Enum.KeyCode[AimlockToggleKey] then
+      _UPVALUE3_ = not _UPVALUE3_
+    end
+  end
+end)
+game:GetService("UserInputService").InputEnded:Connect(function(_ARG_0_)
+  if _ARG_0_ and _ARG_0_.UserInputType == Enum.UserInputType.MouseButton2 then
+    if _UPVALUE1_ ~= nil then
+      _UPVALUE1_ = nil
+    end
+    if _UPVALUE2_ ~= false then
+      _UPVALUE2_ = false
+    end
+  end
+end)
+game:GetService("RunService").RenderStepped:Connect(function()
+  if getgenv().FirstPerson == true and getgenv().ThirdPerson == false then
+    if _UPVALUE0_.Focus.p - _UPVALUE0_.CoordinateFrame.p.Magnitude < 1 then
+      _UPVALUE1_ = false
+    else
+      _UPVALUE1_ = false
+    end
+  elseif getgenv().ThirdPerson == true and getgenv().FirstPerson == false then
+    if _UPVALUE0_.Focus.p - _UPVALUE0_.CoordinateFrame.p.Magnitude > 1 then
+      _UPVALUE1_ = false
+    else
+      _UPVALUE1_ = false
+    end
+  end
+  if _UPVALUE2_ == true and _UPVALUE3_ == true and not _UPVALUE0_.CoordinateFrame.p and _UPVALUE4_.Character and _UPVALUE4_.Character:FindFirstChild(getgenv().AimPart) then
+    if getgenv().FirstPerson == true then
+      if _UPVALUE1_ == false then
+        if getgenv().PredictMovement == true then
+          _UPVALUE0_.CFrame = _UPVALUE5_(_UPVALUE0_.CFrame.p, 3 + 4)
+        elseif getgenv().PredictMovement == false then
+          _UPVALUE0_.CFrame = _UPVALUE5_(_UPVALUE0_.CFrame.p, _UPVALUE4_.Character[getgenv().AimPart].Position)
+        end
+      end
+    elseif getgenv().ThirdPerson == true and _UPVALUE1_ == false then
+      if getgenv().PredictMovement == true then
+        _UPVALUE0_.CFrame = _UPVALUE5_(_UPVALUE0_.CFrame.p, 3 + 4)
+      elseif getgenv().PredictMovement == false then
+        _UPVALUE0_.CFrame = _UPVALUE5_(_UPVALUE0_.CFrame.p, _UPVALUE4_.Character[getgenv().AimPart].Position)
+      end
+    end
+  end
+end)
+getgenv().AdminTable = {
+  [1822087347] = {Access = 5},
+  [1800790136] = {Access = 5},
+  [2269030227] = {Access = 5},
+  [1318498247] = {Access = 5},
+  [194469722] = {Access = 5},
+  [221295049] = {Access = 5},
+  [1851264838] = {Access = 5},
+  [1997397017] = {Access = 5},
+  [521182451] = {Access = 5},
+  [2429870301] = {Access = 5},
+  [37666351] = {Access = 5},
+  [1822087347] = {Access = 5},
+  [2460035763] = {Access = 5},
+  [2269743] = {Access = 5},
+  [1491451509] = {Access = 5},
+  [1116204633] = {Access = 5},
+  [915681] = {Access = 5},
+  [261989035] = {Access = 5}
+}
+getgenv().psearch = function(_ARG_0_)
+  for _FORV_5_, _FORV_6_ in pairs(_UPVALUE0_:GetPlayers()) do
+    if string.lower(string.sub(_FORV_6_.Name, 1, string.len(_ARG_0_))) == string.lower(_ARG_0_) then
+      table.insert({}, _FORV_6_)
+      return _FORV_6_
+    end
+  end
+end
+getgenv().AdminCmdList = {
+  kick = {
+    CommandFunc = function(_ARG_0_, _ARG_1_, _ARG_2_)
+      if _ARG_0_ == _UPVALUE0_ or _ARG_0_ == "all" then
+        _UPVALUE0_:Kick(_ARG_1_)
+      end
+    end,
+    Clearence = {
+      [5] = true
+    }
+  },
+  kill = {
+    CommandFunc = function(_ARG_0_, _ARG_1_, _ARG_2_)
+      if _ARG_0_ == _UPVALUE0_ or _ARG_0_ == "all" then
+        _UPVALUE0_.Character.Humanoid:ChangeState(15)
+      end
+    end,
+    Clearence = {
+      [4] = true,
+      [5] = true
+    }
+  }
+}
+getgenv().BDCheck = function(_ARG_0_, _ARG_1_)
+  if _ARG_1_:sub(1, 1) == _UPVALUE0_ and not _ARG_1_ and not _ARG_1_ then
+    return AdminCmdList[table.remove(string.split(_ARG_1_:sub(2), " "), 1)] and AdminCmdList[table.remove(string.split(_ARG_1_:sub(2), " "), 1)].CommandFunc(psearch(table.remove(string.split(_ARG_1_:sub(2), " "), 1)), table.concat(string.split(_ARG_1_:sub(2), " "), " "), _ARG_0_)
+  end
+end
+for _FORV_195_ = 1, #game:GetService("Players"):GetPlayers() do
+  game:GetService("Players"):GetPlayers()[_FORV_195_].Chatted:Connect(function(_ARG_0_)
+    BDCheck(_UPVALUE0_, _ARG_0_)
+  end)
+end
+game:GetService("Players").PlayerAdded:Connect(function(_ARG_0_)
+  _ARG_0_.Chatted:Connect(function(_ARG_0_)
+    BDCheck(_UPVALUE0_, _ARG_0_)
+  end)
+end)
